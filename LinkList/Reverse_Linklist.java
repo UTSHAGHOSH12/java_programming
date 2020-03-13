@@ -1,7 +1,4 @@
-class Reverse_Linklist{
- Node head;
-
- static class Node{
+ class Node{
   int data;
   Node next;
 
@@ -10,6 +7,9 @@ class Reverse_Linklist{
    next = null;
   }
  }
+
+class Reverse_Linklist{
+ Node head;
 
  public void print(){
   Node curr = head;
@@ -32,8 +32,8 @@ class Reverse_Linklist{
    currNode.next = prevNode;
    prevNode = currNode;
    currNode = nextNode;
-
   }
+   head = prevNode;
  }
 
  public static void main(String args[]){

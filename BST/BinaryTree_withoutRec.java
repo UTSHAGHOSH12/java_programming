@@ -32,9 +32,7 @@ class BinaryTree_withoutRec{
   }
 }
 
- BinaryTree_withoutRec(){
-  root = null;
- }
+
 
  public static void main(String args[]){
   BinaryTree_withoutRec tree = new BinaryTree_withoutRec();
